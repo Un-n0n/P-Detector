@@ -9,6 +9,9 @@ P-Detector is a tool for detecting phishing websites and malicious emails using 
 - **Customizable rules**: Supports configurable thresholds and detection rules to adapt to different environments.
 - **Batch processing**: Can process multiple domains or emails from input files.
 - **Plain-text outputs**: Results are written to simple text/CSV files for easy integration with other tools.
+
+
+
  Requirements
 
 - Python 3.8 or higher
@@ -33,4 +36,26 @@ P-Detector is a tool for detecting phishing websites and malicious emails using 
 3. Install dependencies
 
   pip install -r requirements.txt
+
+
+  Phishing Domain Dataset Setup
+
+P-Detector uses phishing URL data from PhishTank for domain-based detection.
+
+ Download Phishing Dataset
+
+Download the latest verified phishing URL dataset from:
+
+https://data.phishtank.com/data/online-valid.csv
+
+After downloading, place the file inside the `data` folder:
+
+
+P-Detector/
+│
+├── data/
+│   └── verified_online.csv
+│
+└── 
+And run the PD3t3ct1v3.py
 

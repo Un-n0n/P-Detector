@@ -1,0 +1,29 @@
+email_model_path: "models/email_model.pkl"
+url_model_path: "models/url_model.pkl"
+legitimate_domains_path: "data/tranco_legitimate_domains.txt"
+suspicious_email_keywords:
+  - "verify"
+  - "urgent"
+  - "lock"
+  - "otp"
+  - "immediately"
+  - "account suspended"
+  - "password"
+  - "card number"
+  - "bank account"
+
+email_urgency_words:
+  - "urgent"
+  - "immediately"
+  - "as soon as possible"
+  - "right now"
+
+suspicious_url_keywords:
+  - "login"
+  - "secure"
+  - "verify"
+  - "bank"
+  - "account"
+  - "password"
+  - "update"
+  - "reset"

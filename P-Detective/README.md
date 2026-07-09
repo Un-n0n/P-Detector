@@ -7,7 +7,6 @@ P-Detector is a tool for detecting phishing websites and malicious emails using 
 - **Domain-based detection**: Analyzes domains against trusted lists (e.g., Tranco list) to detect suspicious or newly registered domains.
 - **Email-based detection**: Identifies phishing emails by analyzing headers, subject patterns, and content structure.
 - **Customizable rules**: Supports configurable thresholds and detection rules to adapt to different environments.
-- **Batch processing**: Can process multiple domains or emails from input files.
 - **Plain-text outputs**: Results are written to simple text/CSV files for easy integration with other tools.
 
 
